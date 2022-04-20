@@ -1,0 +1,21 @@
+{
+  "links": [
+    {
+      "link": "/",
+      "label": "Home"
+    },
+    {
+      "link": "/prototype",
+      "label": "Prototype"
+    },
+
+    {
+      "link": "/about-us",
+      "label": "About us"
+    },
+    {
+      "link": "/contact",
+      "label": "Contact"
+    }
+  ]
+}
