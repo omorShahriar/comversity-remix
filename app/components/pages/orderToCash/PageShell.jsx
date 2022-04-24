@@ -2,25 +2,25 @@ const PageShell = ({ children }) => {
   return (
     <div className=" bg-[url('/order-to-cash-background.jpg')] bg-cover bg-center bg-no-repeat h-screen w-screen relative">
       <div className="  p-[2%] grid h-screen grid-cols-12 gap-x-10 ">
-        <div className="flex flex-col gap-y-5 col-span-4 py-20 pl-36">
+        <div className="flex flex-col gap-y-5 col-span-4 py-20 pl-24">
           <div className="pt-10">
             <div className="shelf shadow-md  ">
-              <img alt="shelf" src="/shelf.png" />
+              <img alt="shelf" src="/shelf.png" className=" w-full " />
             </div>
           </div>
           <div className="pt-10">
             <div className="shelf shadow-md">
-              <img alt="shelf" src="/shelf.png" />
+              <img alt="shelf" src="/shelf.png" className=" w-full " />
             </div>
           </div>
           <div className="pt-10">
             <div className="shelf shadow-md">
-              <img alt="shelf" src="/shelf.png" />
+              <img alt="shelf" src="/shelf.png" className=" w-full " />
             </div>
           </div>
           <div className="pt-10">
             <div className="shelf shadow-md">
-              <img alt="shelf" src="/shelf.png" />
+              <img alt="shelf" src="/shelf.png" className=" w-full " />
             </div>
           </div>
         </div>
