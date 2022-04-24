@@ -1,5 +1,5 @@
 import { Button } from "@mantine/core";
-import { Link, Outlet } from "remix";
+import { Link } from "remix";
 import PageShell from "~/components/pages/secondPage/PageShellV2";
 
 const screen = () => {
@@ -10,7 +10,19 @@ const screen = () => {
           <img alt="tania" src="/tania.png" />
         </div>
         <div className=" flex-grow  max-w-[820px] relative ">
-          <Outlet />
+          <p className="absolute text-justify top-[5%] left-[5%] text-sm max-w-[500px] ">
+            The Order to Cash cycle represents the entire group of processes
+            from order entry to cash application, often referred to generally as
+            the Order-to-Cash Cycle (OTC or O2C) and specifically divided into
+            the Order-to-Invoice (OTI) and Invoice-to-Cash (ITC) cycles.
+          </p>
+          <Button
+            className="absolute top-[32%] left-[40%] bg-white text-slate-900 hover:text-white border-2 border-[#039FDC]"
+            radius="lg"
+            size="lg"
+          >
+            Next
+          </Button>
           <img src="/dialouge-box.png" alt="dialouge box" />
         </div>
       </div>
@@ -26,7 +38,7 @@ const screen = () => {
         </Button>
         <Button
           component={Link}
-          to="2"
+          to="/order-to-cash"
           size="md"
           radius="md"
           className="bg-white text-slate-900 hover:text-white border-2 border-[#039FDC]"
