@@ -532,6 +532,58 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 5%;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.-right-10 {
+  right: -2.5rem;
+}
+
+.-right-80 {
+  right: -20rem;
+}
+
+.-right-60 {
+  right: -15rem;
+}
+
+.-right-40 {
+  right: -10rem;
+}
+
+.-right-36 {
+  right: -9rem;
+}
+
+.-top-36 {
+  top: -9rem;
+}
+
+.-top-28 {
+  top: -7rem;
+}
+
+.-top-32 {
+  top: -8rem;
+}
+
+.-top-20 {
+  top: -5rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .order-2 {
   order: 2;
 }
@@ -578,6 +630,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -588,6 +644,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-12 {
@@ -618,6 +678,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100vw;
 }
 
+.min-w-\[320px\] {
+  min-width: 320px;
+}
+
 .max-w-\[500px\] {
   max-width: 500px;
 }
@@ -636,6 +700,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-prose {
   max-width: 65ch;
+}
+
+.max-w-\[320px\] {
+  max-width: 320px;
 }
 
 .flex-grow-0 {
@@ -704,12 +772,24 @@ Ensure the default browser behavior of the `hidden` attribute.
        column-gap: 1.25rem;
 }
 
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-8 {
+  border-width: 8px;
 }
 
 .border-t-2 {
@@ -756,6 +836,38 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-sky-600\/25 {
+  background-color: rgb(2 132 199 / 0.25);
+}
+
+.bg-sky-600\/10 {
+  background-color: rgb(2 132 199 / 0.1);
+}
+
+.bg-\[\#039FDC\]\/10 {
+  background-color: rgb(3 159 220 / 0.1);
+}
+
+.bg-\[\#039FDC\]\/5 {
+  background-color: rgb(3 159 220 / 0.05);
+}
+
+.bg-\[\#039FDC\]\/50 {
+  background-color: rgb(3 159 220 / 0.5);
+}
+
+.bg-\[\#039FDC\]\/25 {
+  background-color: rgb(3 159 220 / 0.25);
+}
+
+.bg-\[\#039FDC\]\/20 {
+  background-color: rgb(3 159 220 / 0.2);
+}
+
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
 }
 
 .bg-gradient-to-b {
@@ -813,6 +925,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2%;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -821,6 +941,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pt-2 {

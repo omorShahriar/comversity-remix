@@ -13,7 +13,7 @@ const screen = () => {
       </p>
       <Button
         component={Link}
-        to="/prototype"
+        to="/order-to-cash/result-area"
         className="absolute top-[37%] left-[44%] bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
         radius="lg"
         size="lg"
