@@ -21,53 +21,8 @@ const screen = () => {
         </div>
         <div className="mt-10  flex flex-col">
           <div className="relative ">
-            <div className="rounded-md absolute z-10 bg-white/50 max-w-[320px] flex flex-col gap-y-2 -top-20 -right-36  p-10 border-[#039FDC] border-2">
-              <Button
-                component={Link}
-                to="/order-to-cash/competency/master-data-collection"
-                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
-              >
-                Master Data Collection
-              </Button>
-              <Button
-                component={Link}
-                to="order-management"
-                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
-              >
-                MD Verification and storage
-              </Button>
-              <Button
-                component={Link}
-                to="order-management"
-                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
-              >
-                Customer Creation
-              </Button>
-              <Button
-                component={Link}
-                to="order-management"
-                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
-              >
-                Multichannel Management
-              </Button>
-              <Button
-                component={Link}
-                to="order-management"
-                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
-              >
-                Order Receipt and Entry
-              </Button>
-              <Button
-                component={Link}
-                to="order-management"
-                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
-              >
-                System/Software Savvy
-              </Button>
-            </div>
             <Button
-              component={Link}
-              to="/order-to-cash/competency"
+              disabled
               className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
             >
               Competency
@@ -77,7 +32,46 @@ const screen = () => {
             <img alt="shelf" src="/shelf.png" className=" w-full " />
           </div>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 flex flex-col">
+          <div className="relative ">
+            <div className="rounded-md absolute z-10 bg-white/50 max-w-[320px] flex flex-col gap-y-2 -top-20 -right-36  p-10 border-[#039FDC] border-2">
+              <Button
+                component={Link}
+                to="/prototype"
+                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
+              >
+                Functional
+              </Button>
+              <Button
+                component={Link}
+                to="technical"
+                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
+              >
+                Technical
+              </Button>
+              <Button
+                component={Link}
+                to="operational"
+                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
+              >
+                Operational
+              </Button>
+              <Button
+                component={Link}
+                to="behavioral"
+                className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
+              >
+                Behavioral
+              </Button>
+            </div>
+            <Button
+              component={Link}
+              to="/order-to-cash/dimension"
+              className="bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
+            >
+              Dimension
+            </Button>
+          </div>
           <div className="shelf shadow-md">
             <img alt="shelf" src="/shelf.png" className=" w-full " />
           </div>
@@ -91,11 +85,14 @@ const screen = () => {
       <div className="col-span-8 grid  grid-cols-12 gap-x-5 pt-[10%] ">
         <div className="col-start-2 col-span-7 pt-[10%]   relative ">
           <p className="absolute text-justify top-[15%] left-[22%] text-sm max-w-[340px] ">
-            something to be filled here with later on.
+            Great! Now we will start working with the basic building blocks
+            which are the Sub-Competencies. But before selecting any particular
+            sub-competency, you have to define which particular dimension you
+            are interested to work on. There are 4 common dimensions, choose
+            one.
           </p>
           <Button
-            component={Link}
-            to="/order-to-cash/dimension"
+            disabled
             className="absolute top-[35%] left-[44%] bg-[#DBE5FE] text-slate-900 hover:text-white border-2 border-[#039FDC]"
             radius="lg"
             size="lg"
